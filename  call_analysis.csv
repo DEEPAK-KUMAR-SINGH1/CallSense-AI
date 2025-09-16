@@ -1,0 +1,29 @@
+Transcript,Summary,Sentiment
+"Customer: Hi, I’m having trouble logging into my account.",Login issue,Negative
+Agent: I’m sorry to hear that. Can you tell me what happens when you try to log in?,Asking details,Neutral
+"Customer: It keeps saying my password is incorrect, even though I’m sure it’s right.",Incorrect password,Negative
+"Agent: Okay, let’s try resetting your password.",Resetting password,Neutral
+"Customer: Alright, but I don’t want to wait too long.",Expressing concern,Negative
+"Agent: Don’t worry, it should be quick. I’ll send a reset link to your email.",Sending reset link,Neutral
+"Customer: Thanks, I got it now.",Received reset link,Positive
+Agent: Great! Did the reset work?,Checking progress,Neutral
+"Customer: Yes, I can log in now. That’s a relief.",Logged in,Positive
+Agent: Happy to hear that! Anything else I can help you with?,Checking if assistance needed,Neutral
+"Customer: Actually, yes. I was trying to update my profile picture, but it keeps failing.",Profile picture issue,Negative
+Agent: I see. Can you tell me what error message you get?,Asking for error message,Neutral
+Customer: It says “Upload failed. Please try again later.”,Error message,Negative
+Agent: Got it. Sometimes clearing the cache helps. Have you tried that?,Clearing cache,Neutral
+Customer: Not yet. Let me try.,Trying clearing cache,Neutral
+"Customer: Hmm, still not working.",Still not working,Negative
+"Agent: Alright, I can manually update it for you. Can you send me the picture?",Manual update,Neutral
+"Customer: Sure, sending now.",Sending picture,Neutral
+Agent: Received it. I’ll update it and let you know once done.,Receiving picture,Neutral
+"Customer: Thanks, I appreciate that.",Appreciative,Positive
+Agent: Done! Your profile picture is updated.,Profile picture updated,Positive
+"Customer: Wow, that was fast. Thank you so much!",Impressed,Positive
+Agent: You’re welcome! Anything else today?,Checking for more assistance,Neutral
+"Customer: No, that’s all.",No more issues,Neutral
+Customer: Very happy with your support.,Happy with support,Positive
+Agent: Glad to hear! Have a great day.,Wishing a good day,Neutral
+"Customer: You too, bye!",Goodbye,Neutral
+Agent: Bye!,Goodbye,Neutral
